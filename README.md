@@ -59,4 +59,4 @@ Our implementation is developed on the following repositories. Thanks to the con
 
 ## License
 
-This repository is released under the [MIT](./LICENSE) license.
+This repository is released under the [GPL-3.0](./LICENSE) license.
