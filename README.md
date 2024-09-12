@@ -52,6 +52,9 @@ bash run.sh
 You can modify run.sh scripts to experiment with different datasets or training configurations.
 Detailed logging is provided during training to help monitor performance across tasks.
 
+---
+Pretrained models and example outputs will be shared in future updates.
+
 ## Reference
 
 Our implementation is developed on the following repositories. Thanks to the contributors!
