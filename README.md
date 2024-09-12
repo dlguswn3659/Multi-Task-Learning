@@ -30,6 +30,7 @@ Our code is mainly based on [LibMTL](https://github.com/median-research-group/Li
 ```shell
 pip install -r requirements.txt
 ```
+Please ensure all dependencies are installed to avoid compatibility issues during execution.
 
 
 ## Dataset
