@@ -49,7 +49,8 @@ You can check the results by running the following command.
 cd ./examples/{nyusp, office}
 bash run.sh
 ```
-You can modify run.sh scripts to experiment with different datasets or training configurations
+You can modify run.sh scripts to experiment with different datasets or training configurations.
+Detailed logging is provided during training to help monitor performance across tasks.
 
 ## Reference
 
