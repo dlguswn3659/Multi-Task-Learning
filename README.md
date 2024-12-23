@@ -30,6 +30,7 @@ Our code is mainly based on [LibMTL](https://github.com/median-research-group/Li
 ```shell
 pip install -r requirements.txt
 ```
+Please ensure all dependencies are installed to avoid compatibility issues during execution.
 
 
 ## Dataset
@@ -41,13 +42,19 @@ You can download datasets in the following links.
 
 ## Run
 
-Training and testing codes are in `./examples/{nyusp, office}/main.py`.  
+Training and testing codes are in `./examples/{nyusp, office}/main.py`, where you can also customize hyperparameters for your experiments.
 You can check the results by running the following command.
+
 
 ```shell
 cd ./examples/{nyusp, office}
 bash run.sh
 ```
+You can modify run.sh scripts to experiment with different datasets or training configurations.
+Detailed logging is provided during training to help monitor performance across tasks.
+
+---
+Pretrained models and example outputs will be shared in future updates.
 
 ## Reference
 
@@ -56,7 +63,8 @@ Our implementation is developed on the following repositories. Thanks to the con
 - [CAGrad](https://github.com/Cranial-XIX/CAGrad)  
 - [mtan](https://github.com/lorenmt/mtan)
 
+Feel free to contribute by submitting issues or pull requests to improve the repository.
 
 ## License
 
-This repository is released under the [MIT](./LICENSE) license.
+This repository is released under the [GPL-3.0](./LICENSE) license.
